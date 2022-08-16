@@ -1,0 +1,19 @@
+@import "tools/normalize";
+@import "tools/breakpoints";
+@import "tools/colors";
+@import "tools/typography";
+
+@import "parts/header";
+@import "parts/main";
+@import "parts/footer";
+
+.body {
+  background-color: $color-background;
+  max-width: 1600px;
+  margin: 0 auto;
+  font-family: $font-primary;
+  font-size: 18px;
+  line-height: 28.8px;
+  font-weight: 500;
+  color: $color-primary-1;
+}
